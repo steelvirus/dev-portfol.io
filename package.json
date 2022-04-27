@@ -1,0 +1,50 @@
+{
+  "name": "dev-portfolio",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "build-dev": "webpack --mode=development",
+    "watch": "webpack --watch --mode=development",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steelvirus/dev-portfol.io.git"
+  },
+  "author": "Max Latussek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steelvirus/dev-portfol.io/issues"
+  },
+  "homepage": "https://github.com/steelvirus/dev-portfol.io#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-react-inline-elements": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@popperjs/core": "^2.11.5",
+    "babel-loader": "^8.2.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "genesis-ui-app": "^0.0.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "bootstrap": "^5.1.3",
+    "axios": "^0.27.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.7"
+  }
+}
