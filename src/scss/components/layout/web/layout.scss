@@ -1,0 +1,8 @@
+#web {
+  background-color: $dark;
+
+  @import 'header';
+  @import 'footer';
+  @import 'sidebar';
+}
+

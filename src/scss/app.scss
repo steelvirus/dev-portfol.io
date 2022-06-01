@@ -1,0 +1,10 @@
+@import '~bootstrap/scss/functions';
+@import 'theme';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/bootstrap';
+@import 'components/layout/web/layout';
+@import 'components/utilities/utilities';
+
+body {
+  min-height: 100vh;
+}
