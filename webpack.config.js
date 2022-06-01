@@ -24,7 +24,6 @@ module.exports = (env) => {
         externals: {
             'react': 'React',
             'react-dom': 'ReactDOM',
-            'genesis-ui-app': 'Genesis',
         },
         resolve: {
             extensions: ['.js']
@@ -94,7 +93,7 @@ module.exports = (env) => {
         },
     }
 
-    if(mode === 'development'){
+    if (mode === 'development') {
         exports.devServer = {
             host: 'latus.local',
             static: path.join(__dirname, 'dist'),
@@ -102,7 +101,8 @@ module.exports = (env) => {
             historyApiFallback: true,
             devMiddleware: {
                 writeToDisk: true
-            }
+            },
+            allowedHosts: 'all',
         };
     }
 
